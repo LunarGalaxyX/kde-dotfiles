@@ -7,4 +7,7 @@ And other stuff that you can find in this repo.
 
 Install the dotfiles by running:
 
-```git clone https://github.com/LunarGalaxyX/kde-dotfiles.git```
+# 
+```
+git clone https://github.com/LunarGalaxyX/kde-dotfiles.git    
+```
