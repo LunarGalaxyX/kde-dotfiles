@@ -1,4 +1,5 @@
 
-sudo pacman -Syu python
+sudo pacman -Syu fastfetch
 
-python script.py
+mkdir -p "$HOME/.config/fastfetch"
+ln -sfb "$HOME/.dotfiles/FastFetchConfig.jsonc" "$HOME/.config/fastfetch/config.jsonc"
