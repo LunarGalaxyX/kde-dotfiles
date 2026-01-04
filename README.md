@@ -18,7 +18,7 @@ chmod +x install.sh
 WARNING:
 Any config files that were created and edited before the installation of this are going to be saved as backups. To restore them simply:
 
-Go back to the original file location of the config file \
-Find the config file backup (it should be the same as the new config folder, but with a "~" at the end) \
-Delete the ~ \
-Overwrite
+* Go back to the original file location of the config file \
+* Find the config file backup (it should be the same as the new config folder, but with a "~" at the end) \
+* Delete the ~ \
+* Overwrite
