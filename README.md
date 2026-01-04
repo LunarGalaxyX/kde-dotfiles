@@ -20,5 +20,5 @@ Any config files that were created and edited before the installation of this ar
 
 * Go back to the original file location of the config file 
 * Find the config file backup (it should be the same as the new config folder, but with a "~" at the end) 
-* Delete the ~ 
+* Rename the file to delete the ~ 
 * Overwrite
