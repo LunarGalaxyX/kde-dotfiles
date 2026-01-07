@@ -1,4 +1,12 @@
 
+echo  
+echo  
+echo Hi, thank you for trying out my Punpun dotfiles!
+echo  
+echo  
+
+sleep 2
+
 sudo pacman -Syu kitty
 
 mkdir -p "$HOME/.config/kitty"
