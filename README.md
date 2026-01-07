@@ -40,3 +40,14 @@ Any config files that were created and edited before the installation of this ar
 * Find the config file backup (it should be the same as the new config folder, but with a "~" at the end) 
 * Rename the file to delete the ~
 * Overwrite
+
+Here's the KDE Themes I use:
+
+* Global Theme: Breeze Dark
+* Colors: Materia Dark
+* Application Style: Breeze
+* Plasma Style: Materia
+* Window Decorations: Nothing (Breeze also looks great)
+* Icons: yet-another-monochrome-icon-set
+* Cursors: Bibata-Modern-Ice
+* Login Screen (SDDM): Monochrome Plasma 6
