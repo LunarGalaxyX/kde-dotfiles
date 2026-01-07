@@ -7,6 +7,8 @@ echo
 
 sleep 2
 
+sudo pacman -Syu plasma
+
 sudo pacman -Syu kitty
 
 mkdir -p "$HOME/.config/kitty"
@@ -34,4 +36,15 @@ sudo pacman -Syu fastfetch
 mkdir -p "$HOME/.config/fastfetch"
 ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/FastFetchConfig.jsonc" "$HOME/.config/fastfetch/config.jsonc"
 
+plasma-apply-wallpaperimage "$HOME/punpun-rice-dotfiles/dotfiles/Wallpapers/punpunWallpaper.png"
+
 lookandfeeltool -a org.kde.breezedark.desktop
+
+ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/KDE-THEMES/MateriaDark.colors" "$HOME/.local/share/color-schemes/MateriaDark.colors"
+plasma-apply-colorscheme MateriaDark
+
+ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/KDE-THEMES/Materia/" "$HOME/.local/share/plasma/desktoptheme/Materia"
+plasma-apply-desktoptheme Materia
+
+ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/KDE-THEMES/Nothing/" "$HOME/.local/share/aurorae/themes/Nothing"
+ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/kwinrc" "$HOME/.config/kwinrc"
