@@ -4,6 +4,22 @@ sudo pacman -Syu kitty
 mkdir -p "$HOME/.config/kitty"
 ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/KittyConfig.conf" "$HOME/.config/kitty/kitty.conf"
 
+sudo pacman -Syu zsh
+
+sudo pacman -Syu curl
+
+sudo pacman -Syu git
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+sudo pacman -Syu ttf-meslo-nerd-font-powerlevel10k
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+
+mkdir -p "$HOME/.config/zsh"
+ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/ZshellConfig" "$HOME/.config/zsh/.zshrc"
+
+ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/P10kThemeConfig.zsh" "$HOME/.config/zsh/.p10k.zsh"
 
 sudo pacman -Syu fastfetch
 
