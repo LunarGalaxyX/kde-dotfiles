@@ -33,12 +33,6 @@ sudo pacman -Syu plasma
 #mkdir -p "$HOME/.config/kitty"
 #ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/KittyConfig.conf" "$HOME/.config/kitty/kitty.conf"
 
-# Fastfetch and configs
-
-#sudo pacman -Syu fastfetch
-#mkdir -p "$HOME/.config/fastfetch"
-#ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/FastFetchConfig.jsonc" "$HOME/.config/fastfetch/config.jsonc"
-
 # Zsh configs and theme
 
 #sudo pacman -Syu zsh
@@ -50,5 +44,11 @@ sudo pacman -Syu plasma
 #mkdir -p "$HOME/.config/zsh"
 #ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/ZshellConfig" "$HOME/.config/zsh/.zshrc"
 #ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/P10kThemeConfig.zsh" "$HOME/.config/zsh/.p10k.zsh"
+
+# Fastfetch and configs
+
+#sudo pacman -Syu fastfetch
+#mkdir -p "$HOME/.config/fastfetch"
+#ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/FastFetchConfig.jsonc" "$HOME/.config/fastfetch/config.jsonc"
 
 echo Everything should be installed now! Please reboot your computer.
