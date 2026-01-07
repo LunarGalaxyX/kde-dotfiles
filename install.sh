@@ -43,9 +43,10 @@ sudo pacman -Syu plasma
 
 #sudo pacman -Syu zsh
 #sudo pacman -Syu curl
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#RUNZSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 #sudo pacman -Syu ttf-meslo-nerd-font-powerlevel10k
 #git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+#sed -i 's/^ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' "$HOME/.zshrc"
 #mkdir -p "$HOME/.config/zsh"
 #ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/ZshellConfig" "$HOME/.config/zsh/.zshrc"
 #ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/P10kThemeConfig.zsh" "$HOME/.config/zsh/.p10k.zsh"
