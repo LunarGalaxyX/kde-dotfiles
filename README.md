@@ -16,7 +16,7 @@ Then glance over install.sh by running it with a text editor or run:
 ```
 nano ~/punpun-rice-dotfiles/install.sh
 ```
-and uncomment (remove #) anything you want installed (they should be sorted in groups so if you want something specific chances are you have to uncomment everything in that group)
+and uncomment (remove #) anything you want installed (they should be sorted in groups so if you want something specific please uncomment everything in that group if possible)
 If you want everything then uncomment everything but the headers (E.G. # Kitty config)
 
 Then run:
