@@ -60,7 +60,7 @@ sudo pacman -Syu plasma
 #plasma-apply-wallpaperimage "$HOME/punpun-rice-dotfiles/dotfiles/Wallpapers/punpunWallpaper.png"
 #lookandfeeltool -a org.kde.breezedark.desktop
 #cd "$HOME/punpun-rice-dotfiles/dotfiles/KDE-Themes"
-#mv MateriaDark.colors "$HOME/.local/share/color-schemes/MateriaDark.colors"
+#mv -n MateriaDark.colors "$HOME/.local/share/color-schemes/MateriaDark.colors"
 #plasma-apply-colorscheme MateriaDark
 #ln -sfb "$HOME/punpun-rice-dotfiles/dotfiles/KDE-THEMES/Materia/" "$HOME/.local/share/plasma/desktoptheme/Materia"
 #plasma-apply-desktoptheme Materia
