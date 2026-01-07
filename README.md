@@ -1,20 +1,30 @@
 # kde-dotfiles
 Dotfiles for my Arch KDE Plasma setup. Themed after the manga Goodnight Punpun.
-I use: 
+You can find configs for: 
 Kitty terminal with zsh.
-Dolphin file manager.
-And other stuff that you can find in this repo.
+Fastfetch
+and Plasma
+
 
 Install the dotfiles by running:
 
-# 
 ```
 git clone https://github.com/LunarGalaxyX/punpun-rice-dotfiles.git
 cd punpun-rice-dotfiles
-chmod +x install.sh
-./install.sh    
 ```
+Then glance over install.sh by running it with a text editor or run:
+```
+nano ~/punpun-rice-dotfiles/install.sh
+```
+and uncomment (remove #) anything you want installed (they should be sorted in groups so if you want something specific chances are you have to uncomment everything in that group)
+If you want everything then uncomment everything but the headers (E.G. # Kitty config)
 
+Then run:
+```
+cd ~/punpun-rice-dotfiles
+chmod +x install.sh
+./install.sh
+```
 WARNING:
 Any config files that were created and edited before the installation of this are going to be saved as backups. To restore them simply:
 
