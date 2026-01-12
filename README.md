@@ -5,9 +5,7 @@ You can find configs for:
 
 Kitty terminal with zsh.
 
-Fastfetch
-
-and Plasma
+and Fastfetch
 
 
 * Install the dotfiles by running:
